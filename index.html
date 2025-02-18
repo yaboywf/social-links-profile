@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- displays site properly based on user's device -->
+	<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+	<title>Frontend Mentor | Social links profile</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: sans-serif;
+		}
+
+		.attribution {
+			font-size: 11px;
+			text-align: center;
+			color: white;
+			position: absolute;
+			bottom: 10px;
+			width: 100%;
+			text-align: center;
+			display: block;
+		}
+
+		.attribution a {
+			color: white;
+		}
+
+		body {
+			background: hsl(0, 0%, 8%);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: 100vh;
+		}
+
+		main {
+			background: hsl(0, 0%, 12%);
+			color: white;
+			padding: 25px 30px;
+			display: flex;
+			flex-direction: column;
+			width: 270px;
+			height: 420px;
+			border-radius: 10px;
+			gap: 10px;
+			justify-content: flex-start;
+			align-items: center;
+		}
+
+		img {
+			border-radius: 50%;
+		}
+
+		h1 {
+			font-size: 16px;
+			margin-top: 5px;
+		}
+
+		h2 {
+			margin-top: 0;
+			font-size: 10px;
+			color: hsl(75, 94%, 57%);
+		}
+
+		#bio {
+			font-size: 11px;
+			margin-top: 10px;
+			color: white;
+		}
+
+		div {
+			display: flex;
+			flex-direction: column;
+			gap: 13px;
+			width: 100%;
+			margin-top: auto;
+		}
+
+		button {
+			height: 30px;
+			width: 100%;
+			background: hsl(0, 0%, 20%);
+			color: white;
+			outline: none;
+			border: none;
+			border-radius: 5px;
+			font-weight: bold;
+			font-size: 11px;
+			cursor: pointer;
+		}
+
+		button:hover {
+			background: hsl(75, 94%, 57%);
+			color: black;
+		}
+	</style>
+</head>
+
+<body>
+	<main>
+		<img src="/assets/images/avatar-jessica.jpeg" alt="avatar-jessica" width="60px" height="60px">
+
+		<h1>Jessica Randall</h1>
+		<h2>London, United Kingdom</h2>
+
+		<p id="bio">"Front-end developer and avid reader."</p>
+
+		<div>
+			<button>GitHub</button>
+			<button>Frontend Mentor</button>
+			<button>LinkedIn</button>
+			<button>Twitter</button>
+			<button>Instagram</button>
+		</div>
+	</main>
+
+	<div class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+			Mentor</a>. Coded by Dylan Yeo.</div>
+</body>
+
+</html>
